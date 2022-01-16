@@ -12,7 +12,7 @@ namespace CSharpSecaoQuinze.AtividadeGenerics
     {
         public static void ExecutarAtividadeGenerics()
         {
-            PrintService printService = new PrintService();
+            PrintService<int> printService = new PrintService<int>();
 
             Console.Write("How many values: ");
             int nValues = int.Parse(Console.ReadLine());
@@ -22,6 +22,7 @@ namespace CSharpSecaoQuinze.AtividadeGenerics
                 int externalValue = int.Parse(Console.ReadLine());
                 printService.AddValue(externalValue);
             }
+
 
             printService.Print();
             Console.Write("First: " + printService.First());
