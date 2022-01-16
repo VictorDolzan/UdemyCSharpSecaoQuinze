@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
+using CSharpSecaoQuinze.AtividadeGenerics;
 
 namespace CSharpSecaoQuinze
 {
@@ -12,7 +13,7 @@ namespace CSharpSecaoQuinze
     {
         public static void Main(string[] args)
         {
-            
+            AtividadeGenerics.AtividadeGenerics.ExecutarAtividadeGenerics();
         }
     }
 }
