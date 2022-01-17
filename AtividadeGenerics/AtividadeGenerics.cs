@@ -22,8 +22,7 @@ namespace CSharpSecaoQuinze.AtividadeGenerics
                 int externalValue = int.Parse(Console.ReadLine());
                 printService.AddValue(externalValue);
             }
-
-
+            
             printService.Print();
             Console.Write("First: " + printService.First());
         }

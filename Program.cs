@@ -6,6 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
 using CSharpSecaoQuinze.AtividadeGenerics;
+using CSharpSecaoQuinze.AtividadeRestricoesGenerics;
+using CSharpSecaoQuinze.AtividadeRestricoesGenerics.Services;
+using CSharpSecaoQuinze.AtividadeRestricoesGenerics.Entities;
 
 namespace CSharpSecaoQuinze
 {
@@ -13,7 +16,8 @@ namespace CSharpSecaoQuinze
     {
         public static void Main(string[] args)
         {
-            AtividadeGenerics.AtividadeGenerics.ExecutarAtividadeGenerics();
+            //AtividadeGenerics.AtividadeGenerics.ExecutarAtividadeGenerics();
+            AtividadeRestricoesGenerics.AtividadeRestricoesGenerics.ExecutarAtividadeRestricoesGenerics();
         }
     }
 }
