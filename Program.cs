@@ -9,6 +9,8 @@ using CSharpSecaoQuinze.AtividadeGenerics;
 using CSharpSecaoQuinze.AtividadeRestricoesGenerics;
 using CSharpSecaoQuinze.AtividadeRestricoesGenerics.Services;
 using CSharpSecaoQuinze.AtividadeRestricoesGenerics.Entities;
+using CSharpSecaoQuinze.AtividadeGetHashCodeEquals;
+using CSharpSecaoQuinze.AtividadeGetHashCodeEquals.Entities;
 
 namespace CSharpSecaoQuinze
 {
@@ -17,7 +19,8 @@ namespace CSharpSecaoQuinze
         public static void Main(string[] args)
         {
             //AtividadeGenerics.AtividadeGenerics.ExecutarAtividadeGenerics();
-            AtividadeRestricoesGenerics.AtividadeRestricoesGenerics.ExecutarAtividadeRestricoesGenerics();
+            //AtividadeRestricoesGenerics.AtividadeRestricoesGenerics.ExecutarAtividadeRestricoesGenerics();
+            AtividadeGetHashCodeEquals.AtividadeGetHashCodeEquals.ExecutarAtividadeGetHashCodeEquals();
         }
     }
 }
