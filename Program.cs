@@ -11,6 +11,7 @@ using CSharpSecaoQuinze.AtividadeRestricoesGenerics.Services;
 using CSharpSecaoQuinze.AtividadeRestricoesGenerics.Entities;
 using CSharpSecaoQuinze.AtividadeGetHashCodeEquals;
 using CSharpSecaoQuinze.AtividadeGetHashCodeEquals.Entities;
+using CSharpSecaoQuinze.AtividadeHashSetSortedSet;
 
 namespace CSharpSecaoQuinze
 {
@@ -20,7 +21,8 @@ namespace CSharpSecaoQuinze
         {
             //AtividadeGenerics.AtividadeGenerics.ExecutarAtividadeGenerics();
             //AtividadeRestricoesGenerics.AtividadeRestricoesGenerics.ExecutarAtividadeRestricoesGenerics();
-            AtividadeGetHashCodeEquals.AtividadeGetHashCodeEquals.ExecutarAtividadeGetHashCodeEquals();
+            //AtividadeGetHashCodeEquals.AtividadeGetHashCodeEquals.ExecutarAtividadeGetHashCodeEquals();
+            AtividadeHashSetSortedSet.AtividadeHashSetSortedSet.ExecutarAtividadeHashSetSortedSet();
         }
     }
 }
