@@ -12,25 +12,23 @@ namespace CSharpSecaoQuinze.AtividadeHashSetSortedSet
     {
         public static void ExecutarAtividadeSortedSet()
         {
-            SortedSet<int> sSet = new SortedSet<int>(){ 0, 2, 4, 5, 6, 8, 10 };
+            SortedSet<int> aSet = new SortedSet<int>(){ 0, 2, 4, 5, 6, 8, 10 };
 
             SortedSet<int> bsSet = new SortedSet<int>(){ 5, 6, 7, 8, 9, 10 };
 
             //union
 
-            SortedSet<int> cSet = new SortedSet<int>(sSet);
+            SortedSet<int> cSet = new SortedSet<int>(aSet);
             cSet.UnionWith(bsSet);
-
             PrintCollection(cSet);
 
             //intersection
-            SortedSet<int> dSet = new SortedSet<int>(sSet);
+            SortedSet<int> dSet = new SortedSet<int>(aSet);
             dSet.IntersectWith(bsSet);
-
             PrintCollection(dSet);
 
             //difference
-            SortedSet<int> eSet = new SortedSet<int>(sSet);
+            SortedSet<int> eSet = new SortedSet<int>(aSet);
             eSet.ExceptWith(bsSet);
             PrintCollection(eSet);
 
