@@ -16,6 +16,7 @@ using CSharpSecaoQuinze.AtividadeCompararHash;
 using CSharpSecaoQuinze.AtividadeCompararHash.Entities;
 using CSharpSecaoQuinze.ExercicioResolvido;
 using CSharpSecaoQuinze.ExercicioResolvido.Entities;
+using CSharpSecaoQuinze.AtividadeDictionary;
 
 namespace CSharpSecaoQuinze
 {
@@ -28,7 +29,8 @@ namespace CSharpSecaoQuinze
             //AtividadeGetHashCodeEquals.AtividadeGetHashCodeEquals.ExecutarAtividadeGetHashCodeEquals();
             //AtividadeHashSetSortedSet.AtividadeHashSetSortedSet.ExecutarAtividadeHashSetSortedSet();
             //AtividadeCompararHash.AtividadeCompararHash.ExecutarAtividadeCompararHash();
-            ExercicioResolvido.ExercicioResolvido.ExecutarExercicioResolvido();
+            //ExercicioResolvido.ExercicioResolvido.ExecutarExercicioResolvido();
+            AtividadeDictionary.AtividadeDictionary.ExecutarAtividadeDictionary();
         }
     }
 }
